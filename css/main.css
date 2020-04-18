@@ -1,0 +1,59 @@
+html {
+font-family: Quicksand, sans-serif;
+}
+
+
+header {
+  background-color: #475c78;
+}
+
+.nav {
+  text-align: center;
+}
+
+.free {
+  text-align:center;
+  color: #fff;
+}
+
+.btn {
+  background-color: #fff;
+  border-color: #fff;
+  color: #cc7780;
+}
+
+.try-free {
+  background-color: #f4bd79;
+  border-color: #f4bd79;
+  border-radius: 0;
+}
+
+footer {
+  background-color: #475c78;
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    display: inline-block;
+  }
+
+  .nav {
+    text-align: right;
+    padding:0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    max-width: 20rem;
+  }
+
+  .masthead {
+    max-width: 960px;
+    margin:auto;
+  }
+
+}
