@@ -11,7 +11,7 @@ header {
   text-align: center;
 }
 
-.free {
+.heading {
   text-align:center;
   color: #fff;
 }
@@ -22,14 +22,34 @@ header {
   color: #cc7780;
 }
 
-.try-free {
-  background-color: #f4bd79;
-  border-color: #f4bd79;
-  border-radius: 0;
+.plans, .services{
+  background-color: #475c78;
+  justify-content: center;
 }
 
-footer {
-  background-color: #475c78;
+.teachers {
+  background-color: #f4bd79;
+  justify-content: center;
+}
+.card {
+  background-color: #fff;
+  text-align: center;
+  margin: 5px;
+  max-width: 80%;
+}
+
+h3 {
+  text-align:center;
+  color: #cc7780;
+}
+
+main {
+  background-color: #f4bd79;
+}
+
+footer .grid{
+  background-color: #f4bd79;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 38em) {
@@ -43,13 +63,13 @@ footer {
     padding:0;
   }
 
+  .card {
+    max-width: 30%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
-
-  img {
-    max-width: 20rem;
-  }
 
   .masthead {
     max-width: 960px;
