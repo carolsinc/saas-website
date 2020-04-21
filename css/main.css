@@ -22,8 +22,7 @@ header {
   color: #cc7780;
 }
 
-.btn:hover,
-.btn:focus {
+.current, .btn:hover {
   background-color:#cc7780;
   border-color: #cc7780;
   color: #fff;
@@ -38,6 +37,26 @@ header {
   background-color: #f4bd79;
   justify-content: center;
 }
+
+.teacher-card {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16rem;
+  background-color: white;
+}
+
+.shakespeare {
+  background-image: url('../images/Shakespeare.svg');
+}
+.earhart {
+  background-image: url('../images/Earhart.svg');
+}
+.dali {
+  background-image: url('../images/Dali.svg');
+}
+
+
+
 .card {
   background-color: #fff;
   text-align: center;
