@@ -22,6 +22,13 @@ header {
   color: #cc7780;
 }
 
+.btn:hover,
+.btn:focus {
+  background-color:#cc7780;
+  border-color: #cc7780;
+  color: #fff;
+}
+
 .plans, .services{
   background-color: #475c78;
   justify-content: center;
