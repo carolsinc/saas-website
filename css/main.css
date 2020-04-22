@@ -37,7 +37,7 @@ header {
 }
 
 .teachers {
-  background-color: #dda35b;
+  background-color: #b97520;
   text-align: center;
   justify-content: center;
 }
@@ -74,11 +74,11 @@ h3 {
 }
 
 main {
-  background-color: #dda35b;
+  background-color: #b97520;
 }
 
 footer .grid {
-  background-color: #dda35b;
+  background-color: #b97520;
   justify-content: center;
 }
 
@@ -98,11 +98,11 @@ label {
 }
 
 input, select {
-  border-color: #dda35b;
+  border-color: #b97520;
 }
 
 [type="radio"] + label::before {
-  border-color: #dda35b;
+  border-color: #b97520;
 }
 
 .submit {
@@ -113,7 +113,7 @@ table {
 }
 
 th, td {
-  border-color: #dda35b;
+  border-color: #b97520;
 }
 
 @media only screen and (min-width: 38em) {
