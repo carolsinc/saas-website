@@ -6,6 +6,10 @@ header {
   background-color: #475c78;
 }
 
+.embed-logo{
+  padding-top: 46.41%;
+}
+
 .nav {
   text-align: center;
 }
@@ -33,7 +37,7 @@ header {
 }
 
 .teachers {
-  background-color: #f4bd79;
+  background-color: #dda35b;
   text-align: center;
   justify-content: center;
 }
@@ -70,11 +74,11 @@ h3 {
 }
 
 main {
-  background-color: #f4bd79;
+  background-color: #dda35b;
 }
 
 footer .grid {
-  background-color: #f4bd79;
+  background-color: #dda35b;
   justify-content: center;
 }
 
@@ -94,11 +98,11 @@ label {
 }
 
 input, select {
-  border-color: #f4bd79;
+  border-color: #dda35b;
 }
 
 [type="radio"] + label::before {
-  border-color: #f4bd79;
+  border-color: #dda35b;
 }
 
 .submit {
@@ -109,13 +113,17 @@ table {
 }
 
 th, td {
-  border-color: #f4bd79;
+  border-color: #dda35b;
 }
 
 @media only screen and (min-width: 38em) {
 
   img {
     display: inline-block;
+  }
+
+  .embed-logo{
+    padding-top: 24%;
   }
 
   .nav {
