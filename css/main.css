@@ -28,12 +28,12 @@ header {
   color: #fff;
 }
 
-.plans, .services, .form{
+.plans, .services, .form, .plans-page{
   background-color: #475c78;
   justify-content: center;
 }
 
-.teachers {
+.teacher {
   background-color: #f4bd79;
   justify-content: center;
 }
@@ -91,6 +91,23 @@ label {
   justify-content: center;
 }
 
+input, select {
+  border-color: #f4bd79;
+}
+
+[type="radio"] + label::before{
+  border-color: #f4bd79;
+}
+
+table {
+  color: #fff;
+}
+
+th, td {
+  border-color: #f4bd79;
+}
+
+
 @media only screen and (min-width: 38em) {
 
   img {
@@ -104,6 +121,10 @@ label {
 
   .card {
     max-width: 30%;
+  }
+
+  fieldset {
+    min-width: 500px;
   }
 
 }
