@@ -31,6 +31,11 @@ header {
   color: #fff;
 }
 
+.current:hover {
+  background-color: #b97520;
+  border-color: #b97520;
+}
+
 .plans, .services, .form, .plans-page {
   background-color: #475c78;
   justify-content: center;
