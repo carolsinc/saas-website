@@ -1,7 +1,6 @@
 html {
-font-family: Quicksand, sans-serif;
+  font-family: Quicksand, sans-serif;
 }
-
 
 header {
   background-color: #475c78;
@@ -12,7 +11,7 @@ header {
 }
 
 .heading {
-  text-align:center;
+  text-align: center;
   color: #fff;
 }
 
@@ -23,18 +22,19 @@ header {
 }
 
 .current, .btn:hover {
-  background-color:#cc7780;
+  background-color: #cc7780;
   border-color: #cc7780;
   color: #fff;
 }
 
-.plans, .services, .form, .plans-page{
+.plans, .services, .form, .plans-page {
   background-color: #475c78;
   justify-content: center;
 }
 
-.teacher {
+.teachers {
   background-color: #f4bd79;
+  text-align: center;
   justify-content: center;
 }
 
@@ -46,13 +46,15 @@ header {
 }
 
 .shakespeare {
-  background-image: url('../images/Shakespeare.svg');
+  background-image: url("../images/Shakespeare.svg");
 }
+
 .earhart {
-  background-image: url('../images/Earhart.svg');
+  background-image: url("../images/Earhart.svg");
 }
+
 .dali {
-  background-image: url('../images/Dali.svg');
+  background-image: url("../images/Dali.svg");
 }
 
 .card {
@@ -63,7 +65,7 @@ header {
 }
 
 h3 {
-  text-align:center;
+  text-align: center;
   color: #cc7780;
 }
 
@@ -71,7 +73,7 @@ main {
   background-color: #f4bd79;
 }
 
-footer .grid{
+footer .grid {
   background-color: #f4bd79;
   justify-content: center;
 }
@@ -87,7 +89,7 @@ label {
 
 .plan-form {
   margin: auto;
-  text-align:center;
+  text-align: center;
   justify-content: center;
 }
 
@@ -95,10 +97,13 @@ input, select {
   border-color: #f4bd79;
 }
 
-[type="radio"] + label::before{
+[type="radio"] + label::before {
   border-color: #f4bd79;
 }
 
+.submit {
+  text-align: center;
+}
 table {
   color: #fff;
 }
@@ -106,7 +111,6 @@ table {
 th, td {
   border-color: #f4bd79;
 }
-
 
 @media only screen and (min-width: 38em) {
 
@@ -116,7 +120,7 @@ th, td {
 
   .nav {
     text-align: right;
-    padding:0;
+    padding: 0;
   }
 
   .card {
@@ -133,7 +137,7 @@ th, td {
 
   .masthead {
     max-width: 960px;
-    margin:auto;
+    margin: auto;
   }
 
   .plan-form {
